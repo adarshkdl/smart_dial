@@ -149,19 +149,30 @@ class _Key extends StatelessWidget {
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
                   children: [
-                    Text(
-                      digit,
-                      style: text.headlineMedium?.copyWith(
-                        color: scheme.onSurface,
+                    // The asterisk glyph is drawn near the top of its line box,
+                    // so nudge it down to look centred on the key.
+                    Transform.translate(
+                      offset: Offset(
+                        0,
+                        digit == '*'
+                            ? (text.headlineMedium?.fontSize ?? 28) * 0.18
+                            : 0,
+                      ),
+                      child: Text(
+                        digit,
+                        style: text.headlineMedium?.copyWith(
+                          color: scheme.onSurface,
+                        ),
                       ),
                     ),
-                    Text(
-                      letters.isEmpty ? ' ' : letters,
-                      style: text.labelSmall?.copyWith(
-                        color: scheme.onSurfaceVariant,
-                        letterSpacing: 1.5,
+                    if (letters.isNotEmpty)
+                      Text(
+                        letters,
+                        style: text.labelSmall?.copyWith(
+                          color: scheme.onSurfaceVariant,
+                          letterSpacing: 1.5,
+                        ),
                       ),
-                    ),
                   ],
                 ),
               ),
