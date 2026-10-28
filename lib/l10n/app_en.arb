@@ -1,0 +1,219 @@
+{
+  "@@locale": "en",
+  "appTitle": "Smart Dial",
+  "tabKeypad": "Keypad",
+  "tabRecents": "Recents",
+  "tabContacts": "Contacts",
+  "defaultRoleTitle": "Make Smart Dial your phone app",
+  "defaultRoleBody": "Needed to answer calls and show the in-call screen. Until then, calls use your current phone app.",
+  "defaultRoleAction": "Set as default",
+  "notNow": "Not now",
+  "call": "Call",
+  "backspace": "Delete digit",
+  "copy": "Copy",
+  "paste": "Paste",
+  "numberCopied": "Number copied",
+  "enterNumber": "Enter a number",
+  "errorInvalidNumber": "That doesn't look like a valid number",
+  "errorCallPermission": "Phone permission is needed to place calls",
+  "errorCallFailed": "Couldn't place the call",
+  "chooseSim": "Call with",
+  "recentsPermissionTitle": "See your call history",
+  "recentsPermissionBody": "Smart Dial reads the call log on this phone to show recent calls. It never leaves your device.",
+  "contactsPermissionTitle": "See your contacts",
+  "contactsPermissionBody": "Smart Dial reads contacts on this phone to show names and search. They never leave your device.",
+  "allowAccess": "Allow access",
+  "openSettings": "Open settings",
+  "permissionSettingsHint": "Access was turned off. You can enable it in Settings.",
+  "noRecents": "No recent calls",
+  "noContacts": "No contacts on this phone",
+  "noResults": "No matches",
+  "errorLoading": "Couldn't load this list",
+  "retry": "Retry",
+  "searchRecents": "Search recents",
+  "searchContacts": "Search contacts",
+  "filterAll": "All",
+  "filterMissed": "Missed",
+  "unknownNumber": "Unknown",
+  "privateNumber": "Private number",
+  "callTypeIncoming": "Incoming",
+  "callTypeOutgoing": "Outgoing",
+  "callTypeMissed": "Missed",
+  "callTypeRejected": "Declined",
+  "callTypeBlocked": "Blocked",
+  "callTypeVoicemail": "Voicemail",
+  "deleteEntry": "Delete from history",
+  "deleted": "Deleted",
+  "today": "Today",
+  "yesterday": "Yesterday",
+  "statusDialing": "Calling…",
+  "statusIncoming": "Incoming call",
+  "statusConnecting": "Connecting…",
+  "statusOnHold": "On hold",
+  "statusEnded": "Call ended",
+  "answer": "Answer",
+  "decline": "Decline",
+  "endCall": "End call",
+  "mute": "Mute",
+  "speaker": "Speaker",
+  "keypad": "Keypad",
+  "hold": "Hold",
+  "bluetooth": "Bluetooth",
+  "hideKeypad": "Hide keypad",
+  "swap": "Swap",
+  "onHoldWith": "On hold: {name}",
+  "@onHoldWith": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "incomingWaiting": "Incoming: {name}",
+  "@incomingWaiting": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "callNumberLabel": "Call {number}",
+  "@callNumberLabel": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "tabFavorites": "Favorites",
+  "rememberSim": "Remember for this number",
+  "removeFavorite": "Remove favorite",
+  "addFavorite": "Add to favorites",
+  "errorFavoritePermission": "Contacts access is needed to change favorites",
+  "openInContacts": "Open in Contacts",
+  "message": "Message",
+  "addToHomeScreen": "Add to home screen",
+  "errorShortcut": "Your launcher doesn't support shortcuts",
+  "speedDialNotSetTitle": "Speed dial {key} isn't set",
+  "speedDialNotSetBody": "Assign a contact to call them by long-pressing this key.",
+  "assign": "Assign",
+  "addContact": "Add to contacts",
+  "showContactSuggestions": "Show contact suggestions",
+  "speedDialAssignTitle": "Speed dial {key}",
+  "speedDialSaved": "Speed dial {key}: {name}",
+  "details": "Details",
+  "frequent": "Frequent",
+  "noFavorites": "Star contacts to see them here",
+  "settings": "Settings",
+  "appearance": "Appearance",
+  "theme": "Theme",
+  "themeSystem": "System",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "accentColor": "Accent colour",
+  "accentTeal": "Teal",
+  "accentBlue": "Blue",
+  "accentIndigo": "Indigo",
+  "accentPurple": "Purple",
+  "accentPink": "Pink",
+  "accentOrange": "Orange",
+  "accentGreen": "Green",
+  "accentDynamic": "Wallpaper",
+  "keypadSize": "Keypad size",
+  "sizeCompact": "Compact",
+  "sizeNormal": "Normal",
+  "sizeLarge": "Large",
+  "t9Suggestions": "Smart search on keypad",
+  "t9SuggestionsHint": "Match contacts by keypad letters and numbers as you type",
+  "keypadTones": "Dial pad tones",
+  "keypadTonesHint": "Also follows the system setting and silent mode",
+  "keypadHaptics": "Vibrate on keypress",
+  "speedDial": "Speed dial",
+  "voicemail": "Voicemail",
+  "notSet": "Not set",
+  "remove": "Remove",
+  "callsAndSim": "Calls & SIM",
+  "rememberSimSetting": "Remember SIM per contact",
+  "rememberSimHint": "{count, plural, =0{No numbers remembered} =1{1 number remembered} other{{count} numbers remembered}}",
+  "clearSimChoices": "Forget remembered SIM choices",
+  "favoriteShortcuts": "Favorites in app shortcuts",
+  "favoriteShortcutsHint": "Long-press the app icon to call up to 4 favorites",
+  "isDefaultApp": "Smart Dial is your phone app",
+  "privacy": "Privacy",
+  "privacySummary": "Contacts and call history stay on this phone. Smart Dial only stores its own settings, notes, reminders and diagnostics — encrypted on this device, never backed up or uploaded.",
+  "clearAppData": "Clear Smart Dial data",
+  "clearAppDataHint": "Settings, speed dial, SIM choices, notes, reminders and diagnostics. Your contacts and call history are not affected.",
+  "clearAppDataConfirm": "Delete all Smart Dial settings, speed dial entries, SIM choices, notes, reminders and diagnostics?",
+  "cancel": "Cancel",
+  "clear": "Clear",
+  "appDataCleared": "Smart Dial data cleared",
+  "filterDeclined": "Declined",
+  "allSims": "All SIMs",
+  "@speedDialNotSetTitle": {
+    "placeholders": {
+      "key": {
+        "type": "int"
+      }
+    }
+  },
+  "@speedDialAssignTitle": {
+    "placeholders": {
+      "key": {
+        "type": "int"
+      }
+    }
+  },
+  "@speedDialSaved": {
+    "placeholders": {
+      "key": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@rememberSimHint": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tomorrow": "Tomorrow",
+  "remindIn15": "In 15 minutes",
+  "remindIn1h": "In 1 hour",
+  "remindThisEvening": "This evening",
+  "remindTomorrowMorning": "Tomorrow morning",
+  "remindMe": "Remind me to call",
+  "pickDateTime": "Pick date & time",
+  "reminderSetFor": "Reminder set: {time}",
+  "reminderNoNotifications": "Reminder saved, but notifications are off for Smart Dial",
+  "reminders": "Reminders",
+  "exactAlarmHint": "Reminders may arrive up to 10 minutes late. Allow exact alarms for on-time reminders.",
+  "allowExactAlarms": "Allow",
+  "noReminders": "No reminders",
+  "overdue": "Overdue",
+  "reminderDone": "Done",
+  "delete": "Delete",
+  "addNote": "Add note",
+  "editNote": "Edit note",
+  "noteHint": "Write a note — only stored on this phone",
+  "save": "Save",
+  "notes": "Notes",
+  "noNotes": "No notes yet",
+  "remindToCallBack": "Remind me to call back",
+  "diagnostics": "Diagnostics",
+  "copyReport": "Copy report",
+  "reportCopied": "Report copied",
+  "diagnosticsHint": "Errors are kept on this phone only, with phone numbers removed. Copy the report if you want to share it with support.",
+  "noDiagnostics": "No problems recorded",
+  "language": "Language",
+  "@reminderSetFor": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  }
+}

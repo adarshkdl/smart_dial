@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="channel_incoming">ഇൻകമിംഗ് കോളുകൾ</string>
+    <string name="channel_ongoing">നടന്നുകൊണ്ടിരിക്കുന്ന കോളുകൾ</string>
+    <string name="incoming_call">ഇൻകമിംഗ് കോൾ</string>
+    <string name="ongoing_call">കോൾ നടക്കുന്നു</string>
+    <string name="answer">എടുക്കുക</string>
+    <string name="decline">നിരസിക്കുക</string>
+    <string name="hang_up">കട്ട് ചെയ്യുക</string>
+    <string name="channel_missed">മിസ്ഡ് കോളുകൾ</string>
+    <string name="missed_call">മിസ്ഡ് കോൾ</string>
+    <string name="missed_calls_count">%1$d മിസ്ഡ് കോളുകൾ</string>
+    <string name="call_back">തിരികെ വിളിക്കുക</string>
+    <string name="message">സന്ദേശം</string>
+    <string name="private_number">സ്വകാര്യ നമ്പർ</string>
+    <string name="channel_reminders">കോൾ ഓർമ്മപ്പെടുത്തലുകൾ</string>
+    <string name="reminder_title">%1$s-നെ വിളിക്കുക</string>
+    <string name="reminder_call">വിളിക്കുക</string>
+    <string name="reminder_snooze">10 മിനിറ്റ് കഴിഞ്ഞ്</string>
+    <string name="reminder_done">പൂർത്തിയായി</string>
+</resources>

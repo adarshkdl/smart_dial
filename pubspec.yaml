@@ -1,0 +1,24 @@
+name: smart_dial
+description: "Smart Dial — an offline-first Android dialer (Flutter UI + native Telecom)."
+publish_to: 'none'
+version: 0.3.0+3
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  characters: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
